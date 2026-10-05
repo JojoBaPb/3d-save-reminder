@@ -20,7 +20,7 @@ By default, the daemon monitors:
 *(You can add more applications by editing the `TARGET_APPS` list in `daemon.py`).*
 
 ## Customizing the Timer
-By default, the reminder triggers after 45 minutes of active, unsaved work. To change this interval before building your own executable:
+By default, the reminder triggers after 25 minutes of active, unsaved work. To change this interval before building your own executable:
 
 1. Open `daemon.py` in any text editor.
 2. Scroll to the very bottom of the script and locate the `if __name__ == "__main__":` block.
@@ -69,7 +69,6 @@ pyinstaller --noconsole --onefile --uac-admin --clean daemon.py
 
 
 5. The final standalone executable will be located in the `dist/` folder.
-EOF
 
 ```
 
