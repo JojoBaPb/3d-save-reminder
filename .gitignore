@@ -1,0 +1,19 @@
+# Environments
+venv/
+venv-win/
+venv-native/
+.env
+
+# PyInstaller Build Files
+build/
+dist/
+*.spec
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
