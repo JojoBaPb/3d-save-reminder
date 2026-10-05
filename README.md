@@ -2,7 +2,7 @@
 
 A lightweight, zero-overhead background utility designed for 3D artists and animators. It monitors active rendering software and enforces saving discipline through a "visual hostage" mechanic. 
 
-Instead of jarring audio alarms, this daemon quietly monitors your session. If 45 minutes pass without a save, it overlays a translucent, persistent quote on your screen. The quote cannot be clicked away or dismissed—it locks on screen until you physically press `Ctrl+S`.
+Instead of jarring audio alarms, this daemon quietly monitors your session. If 25 minutes pass without a save, it overlays a translucent, persistent quote on your screen. The quote cannot be clicked away or dismissed—it locks on screen until you physically press `Ctrl+S`.
 
 ## Features
 * **Visual Hostage Mechanic:** Subtitles remain stubbornly on top of all windows until you save.
